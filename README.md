@@ -49,6 +49,7 @@ npm install
 Rename or create `.env.local`:
 ```env
 RESEND_API_KEY=re_your_api_key_here
+NEXT_PUBLIC_GA_ID=G-XXXXXXXXXX  # Optional: Add your GA4 Measurement ID
 ```
 *Note: Also update the `to:` email address in `src/app/api/waitlist/route.ts`.*
 
