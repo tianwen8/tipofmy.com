@@ -23,9 +23,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        {process.env.NEXT_PUBLIC_GA_ID && (
-           <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GA_ID} />
-        )}
+        <GoogleAnalytics />
         {children}
       </body>
     </html>
